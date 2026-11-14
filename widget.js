@@ -6,7 +6,7 @@
         return;
     }
     const CLIENT_ID = currentScript.getAttribute('data-client-id');
-    const WEBHOOK_URL = "https://granular-flying-tricycle.ngrok-free.dev/webhook/chat";
+    const WEBHOOK_URL = "https://a1b2u3derya.app.n8n.cloud/webhook/chat";
 
     // 2. Setup persistent session ID for the visitor
     let sessionId = localStorage.getItem("chatSessionId");
